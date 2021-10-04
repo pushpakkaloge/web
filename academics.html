@@ -26,12 +26,9 @@
 <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 </head>
 <body>
-  <!-- sidebar link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."sidebar.html")  ?>
+  <?php require_once __DIR__ . '/assets/sidebar.html'; ?>
 
-  <!-- header link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."header.html")  ?>
-
+  <?php require_once __DIR__ . '/assets/header.html'; ?>
 <div class="main-div">
 
 <h2 style="color:red">E & TC - Academics</h2>
@@ -557,7 +554,7 @@ Sudharm S Kalamdani</td>
 <img src="images/result-analysis-2018-19.jpg" class="rounded float-start" alt="...">
 
 </div>
-<?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."footer.html")  ?>
+<?php require_once __DIR__ . '/assets/footer.html'; ?>
 
 </body>
 

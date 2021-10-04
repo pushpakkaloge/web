@@ -15,6 +15,7 @@
   <?php require_once __DIR__ . '/assets/sidebar.html'; ?>
 
   <?php require_once __DIR__ . '/assets/header.html'; ?>
+  
   <div id="all_news"> <span>Latest News</span>
       <ul>
           <li><a href="#"> India Today Engineering Survey 2021 : PCCoE ranked 76th in INDIA among top 200 Private Engineering Colleges in India Today Engineering Survey 2021</a></li>

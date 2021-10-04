@@ -18,12 +18,9 @@
 </head>
 <body>
 
-  <!-- sidebar link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."sidebar.html")  ?>
+  <?php require_once __DIR__ . '/assets/sidebar.html'; ?>
 
-  <!-- header link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."header.html")  ?>
-
+  <?php require_once __DIR__ . '/assets/header.html'; ?>
 <div class="main-div">
 <h2>STAFF MEMBER's</h2>
 <br>
@@ -1007,6 +1004,6 @@ Experience : 1+ Year<br></p>
 
   </div>
 
-  <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."footer.html")  ?>
+  <?php require_once __DIR__ . '/assets/footer.html'; ?>
 </body>
 </html>

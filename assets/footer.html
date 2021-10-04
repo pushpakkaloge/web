@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+<link rel="stylesheet" href="styles/footerstyles.css">
+
+<script>
+     // Initialize and add the map
+     function initMap() {
+       // The location of Uluru
+       const uluru = { lat: 18.65189141998946, lng: 73.76168271735686 };
+       // The map, centered at Uluru
+       const map = new google.maps.Map(document.getElementById("map"), {
+         zoom: 9,
+         center: uluru,
+       });
+       // The marker, positioned at Uluru
+       const marker = new google.maps.Marker({
+         position: uluru,
+         map: map,
+       });
+     }
+   </script>
+
+  </head>
+  <body>
+<div class="footer1">
+    <div class="footer-div">
+      <div class="row">
+        <div class="footer-address col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                    <h5>near Akurdi Railway Station Road, Sector No. 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra, Pune - 411044</h5>
+                    <p>
+<h5>Call us: +020 2765 3168</h5>
+<h5>Email: pccoepune@pccoepune.org</h5>
+<span>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</span>
+
+                    </p>
+        </div>
+      <div class="footer-important-links  col-sm-5 col-md-3 col-lg-3">
+          <h2>IMPORTANT LINKS</h2>
+          <h5 class="hover-underline-animation"><a id ="a" href="#">Home</a></h5><br>
+          <h5 class="hover-underline-animation"><a href="hod.html">HoD</a></h5><br>
+          <h5 class="hover-underline-animation"><a href="staff.html">Faculty</a></h5><br>
+          <h5 class="hover-underline-animation"><a target="_blank" href="http://pccoepune.com">About PCCOE</a></h5><br>
+          <h5 class="hover-underline-animation"><a target="_blank" href="http://pcet.org.in/">About PCET</a></h5>
+      </div>
+
+
+
+      <div class="footer-help-links col-xs-0 col-sm-0 col-md-3 col-lg-2">
+          <h2>HELP</h2>
+          <h5 class="hover-underline-animation"><a href="index.html">Home</a></h5><br>
+          <h5 class="hover-underline-animation"><a href="about.html">About us</a></h5>
+      </div>
+
+
+<div class="col-sm-0 col-md-0 col-lg-2" id="map" ></div>
+
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+<h4>Copyright © 2021 pimpri chinchwad college of engineering. All rights reserved.</h3>
+    </div>
+
+
+
+
+
+
+</div>
+    <script
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP6PQA74YCaryQP8_IUxOfBLKXZ37EZAY&callback=initMap&libraries=&v=weekly"
+       async
+     ></script>
+  </body>
+</html>

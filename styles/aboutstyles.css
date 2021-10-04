@@ -1,0 +1,131 @@
+.about-main-div{
+  height: auto;
+}
+
+.hr{
+  border-top: 3px dotted black;
+  width: 40%;
+  margin: 15px auto;
+}
+
+.top-section{
+  margin: 40px;
+  text-align: center;
+
+}
+
+.top-section h3{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.top-section h4{
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.bottom-section{
+  padding: 10px 100px;
+
+}
+
+.para1, .para2, .para3, .para4{
+height: 350px;
+margin: 20px 0px;
+}
+
+.para1-name, .para2-name, .para3-name, .para4-name{
+text-decoration: underline;
+font-family: 'Gemunu Libre', sans-serif;
+color:red;
+}
+
+.para1 h3, .para2 h3, .para3 h3, .para4 h3{
+font-size: 17px;
+font-family: 'Recursive', sans-serif;
+line-height: 25px;
+}
+
+
+.para1-image , .para3-image{
+  height: 250px;
+ width:220px;
+ float: left;
+ margin-right: 30px;
+
+}
+
+.para2-image, .para4-image{
+ height: 250px;
+ width: 220px;
+ float:right;
+ margin-left: 30px;
+}
+
+
+@media (max-width:1028px){
+
+  .para1, .para2, .para3, .para4{
+  height: auto;
+  margin: 20px 0px;
+  text-align: center;
+  }
+
+.top-section{
+  margin: 20px;
+}
+  .bottom-section{
+    padding: 10px 20px;
+
+  }
+
+   .para2-image, .para4-image{
+     margin-left: -20px
+   }
+
+  .para1-image , .para3-image, .para2-image, .para4-image{
+    padding-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    float: none;
+  }
+
+.para1 h3, .para2 h3, .para3 h3, .para4 h3{
+    text-align: justify;
+  }
+
+}
+
+/* -----------------------------------  bottom collapsible list ------------------------------------------ */
+
+.collapsible-div{
+margin: 10px;
+}
+
+.collapsible {
+  background-color: #008080;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.active, .collapsible:hover {
+  background-color: #008B8B;
+}
+
+.collapsible-content {
+  padding: 10px 40px;
+  display: none;
+  overflow: hidden;
+  background-color: #AFEEEE;
+  line-height: 30px;
+}

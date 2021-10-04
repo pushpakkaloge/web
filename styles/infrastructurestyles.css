@@ -1,0 +1,131 @@
+@media (max-width:1028px){
+.main-div img{
+  width:300px;
+}
+
+td{
+  font-size: 10px;
+}
+
+.v1{
+  visibility: hidden;
+}
+
+.top-data-div, .top-img-div2, .top-data-div3{
+  margin-top: -500px;
+}
+
+.top-img-div2{
+  text-align: center;
+}
+
+
+.collapsible {
+padding: 0px;
+}
+
+.collapsible-content{
+  padding: 5px 0px;
+}
+
+
+}
+/* ------------------------- styles ------------------------------- */
+
+.infra-hr{
+  border-top: 1px solid #4169E1;
+  width: 100%;
+}
+
+/* vertical line */
+.v1{
+  border-left: 3px dotted #4169E1;
+  height: 500px;
+}
+
+.main-div{
+  height: auto;
+  margin: 20px;
+}
+
+.top-div h1{
+  font-size: 25px;
+}
+
+
+.top-div h4{
+font-size: 17px;
+}
+.top-div li{
+  font-size: 18px;
+}
+
+.top-img-div, .top-img-div3{
+/* padding: 20px; */
+text-align: center;
+}
+
+.top-img-div2{
+padding-right: 30px;
+ }
+
+.top-data-div2, .top-data-div{
+  padding: 17px;
+  margin-left: 30px;
+}
+
+.top-data-div3 h2, .top-data-div2 h2 , .top-data-div h2, .journal-div h3{
+font-size: 20px;
+}
+
+.top-data-div3 h4, .top-data-div2 h4 , .top-data-div h4{
+font-size: 15px;
+}
+
+
+.table-head{
+  font-weight: bold;
+  background-color: #87CEFA;
+}
+
+
+/* --------------------------------------  library div ------------------------------------------------ */
+
+.library-div h3{
+  font-size: 18px;
+  color: #0000FF;
+}
+
+.journal-div{
+  padding: 2% 2%;
+}
+
+/* ---------------------------------------------  collapsible div styles ----------------------------------------------- */
+.collapsible-div{
+margin: 0px 10px;
+}
+
+.collapsible {
+  background-color: #4169E1;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /* font-size: 15px; */
+  margin: 10px 0px;
+}
+
+.active, .collapsible:hover {
+  background-color: #6495ED;
+}
+
+.collapsible-content {
+  padding: 6px 40px;
+  display: none;
+  overflow: hidden;
+  /* background-color: 	#B0C4DE; */
+  line-height: 20px;
+}

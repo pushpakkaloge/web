@@ -1,0 +1,153 @@
+/* ---------------------------------------  FOOTER STYLES  ---------------------------------------------------------------- */
+
+
+
+a{
+  text-decoration:none;
+  color: white;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer-div{
+  background-color: 	#17202A;
+  color: white;
+  height: 280px;
+  padding: 50px 50px 80px 80px;
+  text-align: center;
+}
+
+.footer-address{
+  margin: 15px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.footer-important-links{
+  margin: 15px 15px 10px 60px;
+  text-align: left;
+}
+
+.footer-help-links{
+  margin: 15px 10px;
+  text-align: left;
+}
+
+/* screen size less than 570px */
+@media (max-width:570px){
+.footer-div{
+  height:420px;
+}
+
+.footer-important-links{
+  padding-left: 40px;
+}
+
+}
+
+/* screen size less than 1028px */
+@media (max-width:1028px){
+  #map{
+    /* visibility: hidden;*/
+    display: none;
+  }
+
+  .footer-help-links{
+    /* visibility: hidden; */
+    display: none;
+  }
+}
+
+/* size less than 800px */
+@media (max-width:800px){
+
+.footer-div{
+    padding: 20px;
+}
+
+.footer-important-links{
+  margin-left: -10px;
+}
+
+}
+
+.footer-div h5{
+  color: white;
+  font-size: 15px;
+}
+
+.footer-div h2{
+  color: white;
+  font-size: 16px;
+  display:flex;
+}
+
+.footer-copyright{
+    background-color: 	#1C2833 ;
+    color: white;
+    height: 100px;
+      padding: 50px;
+
+}
+
+.footer-copyright h4{
+  font-size: 12px;
+}
+
+.fa {
+  padding: 20px 0px;
+  font-size: 20px;
+  width: 30px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+
+}
+
+.fa-facebook {
+  /* background: #3B5998; */
+  color: white;
+}
+
+.fa-twitter {
+  /* background: #55ACEE; */
+  color: white;
+}
+
+.fa-instagram {
+  /* background: #55ACEE; */
+  color: white;
+}
+
+#map {
+  margin-top: 20px;
+        height: 150px;
+        /* The height is 400 pixels */
+        width:100%;
+        /* The width is the width of the web page */
+      }

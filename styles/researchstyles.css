@@ -1,0 +1,116 @@
+.workshop a{
+color: blue;
+}
+
+@media (max-width:1028px){
+
+.collapsible-content{
+  padding: 6px 0px;
+}
+
+.patent-div td, .res-pub-div td{
+  font-size: 7px;
+}
+
+ .proposal-grants-div td{
+   font-size: 6px;
+ }
+
+
+}
+
+.main-div{
+height: 100%;
+margin: 20px;
+}
+
+.reserch-hr{
+  border-top: 1px solid #4169E1;
+  width: 100%;
+}
+
+.top-div{
+padding: 2% 5% 0% 5%;
+}
+
+.top-div h1{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.top-div h4 {
+  font-size: 13px;
+}
+
+ .top-div h2{
+   font-size: 16px;
+   font-weight: bold;
+ }
+
+
+/* ---------------------------------   special interests Groups (SIGs) div --------------------------------------------- */
+
+.table-head{
+  font-weight: bold;
+  background-color: #87CEFA;
+}
+
+td{
+  font-size: 10px;
+}
+
+.table-tile1{
+  width: 50px;
+}
+
+/* --------------------------------- Proposal Grants: Research Funding Received Through External Agencies div --------------------------------------------- */
+
+.proposal-grants-div h2, .patent-div h2, .res-pub-div h2, .workshop h2{
+  font-size: 20px;
+}
+
+.proposal-grants-div h4, .patent-div h4{
+  font-size: 15px;
+}
+
+
+.res-pub-div h4{
+    font-size: 15px;
+}
+/* ------------------------------------- card styles -------------------------------------------------- */
+.card{
+  background-color: pink;
+  height: 50px;
+}
+
+
+
+/* ---------------------------------------------  collapsible div styles ----------------------------------------------- */
+.collapsible-div{
+margin: 0px 10px;
+}
+
+.collapsible {
+  background-color: #4169E1;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /* font-size: 15px; */
+  margin: 10px 0px;
+}
+
+.active, .collapsible:hover {
+  background-color: #6495ED;
+}
+
+.collapsible-content {
+  padding: 6px 0px;
+  display: none;
+  overflow: hidden;
+  /* background-color: 	#B0C4DE; */
+  line-height: 20px;
+}

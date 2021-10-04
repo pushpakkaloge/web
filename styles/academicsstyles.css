@@ -1,0 +1,20 @@
+.main-div{
+padding: 0px 5px;
+text-align: center;
+}
+
+
+
+@media screen and (max-width: 650px) {
+.table td{
+  font-size: 10px;
+}
+
+.main-div img{
+  width: 400px;
+}
+
+.card-body{
+  text-align: justify;
+}
+}

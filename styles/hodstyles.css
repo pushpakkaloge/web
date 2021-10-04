@@ -1,0 +1,53 @@
+@media (max-width:1028px){
+.hod-data{
+  text-align: justify;
+}
+
+.top-div{
+  text-align: center;
+}
+
+.top-div img{
+  height: 300px;
+  width:270px;
+}
+
+}
+
+.top-div{
+height:auto;
+padding: 30px;
+}
+
+.hod-img-div{
+  margin: 20px 0px 0px 30px;
+  padding: 5px;
+  border: solid;
+  border-width: thin;
+  border-color: #1E90FF;
+}
+
+.hod-img-div h1{
+  font-size: 25px;
+  padding-left: 10px;
+  margin-top: 10px;
+  /* text-align: center; */
+  font-weight: bold;
+
+}
+
+.hod-img-div h3{
+font-size: 15px;
+padding-left: 10px;
+}
+
+.top-div img{
+  height: 300px;
+  width:275px;
+}
+
+
+.hod-data{
+  margin-top: 40px;
+  text-align: justify;
+}

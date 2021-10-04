@@ -1,0 +1,108 @@
+.staff-hr{
+  border-top: 2px dotted black;
+  width: 100%;
+  margin: 15px auto;
+  /* margin-top: 300px; */
+}
+
+.main-div{
+background-color:pink;
+height:auto;
+padding: 5px;
+}
+
+.main-div h2{
+  text-align: center;
+  padding-top: 20px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* .row{
+  margin-bottom: 230px;
+} */
+
+
+
+.row-admin .card{
+  height:400px;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+margin: 10px;
+height: 500px;
+text-align: center;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container button{
+height: 40px;
+width: 150px;
+font-size: 15px;
+font-weight: bold;
+padding: 10px;
+position: relative;
+margin-top:5px;
+}
+
+.container p{
+  font-size: 15px;
+}
+
+.container h2{
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+/* .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+
+.name-div{
+  height: 90px;
+}
+
+.data-div{
+  margin-left: 20px;
+  height:150px;
+  text-align: left;
+}
+
+
+.title {
+  color: grey;
+  font-size: 5px;
+}
+
+.button {
+  border: none;
+  border-color: #0099ff;
+  outline: 0;
+  display: inline-block;
+  padding: 0px;
+  color: white;
+  background-color: #0099ff;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #006bb3;
+}
+
+img {
+  border-radius: 50%;
+  height: 190px;
+}

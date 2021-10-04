@@ -32,7 +32,7 @@
 <div class="main-div">
 
   <!-- sidebar link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/PCCOE-main/assets/"; include($PATH."sidebar.html")  ?>
+    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($PATH."sidebar.html")  ?>
 
 <!-- header link -->
 <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."header.html")  ?>

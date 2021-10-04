@@ -31,14 +31,9 @@
 <body>
 <div class="main-div">
 
-<?php require_once __DIR__ . '/sidebar.html'; ?>
-  <!-- sidebar link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($PATH."sidebar.html")  ?>
+<?php require_once __DIR__ . '/assets/sidebar.html'; ?>
 
-<!-- header link -->
-<?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($PATH."header.html")  ?>
-
-<?php require_once __DIR__ . '/assets/otherfile.php'; ?>
+<?php require_once __DIR__ . '/assets/header.html'; ?>
 
 
       <div id="all_news"> <span>Latest News</span>

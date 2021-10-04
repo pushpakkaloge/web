@@ -31,13 +31,14 @@
 <body>
 <div class="main-div">
 
+<?php require_once __DIR__ . '/sidebar.html'; ?>
   <!-- sidebar link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."assets/"; include($PATH."sidebar.html")  ?>
+    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($PATH."sidebar.html")  ?>
 
 <!-- header link -->
-<?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."header.html")  ?>
+<?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($PATH."header.html")  ?>
 
-
+<?php require_once __DIR__ . '/assets/otherfile.php'; ?>
 
 
       <div id="all_news"> <span>Latest News</span>

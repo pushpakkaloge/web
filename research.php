@@ -13,10 +13,9 @@
 </head>
 <body>
   <!-- sidebar link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."sidebar.html")  ?>
+  <?php require_once __DIR__ . '/assets/sidebar.html'; ?>
 
-  <!-- header link -->
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."header.html")  ?>
+  <?php require_once __DIR__ . '/assets/header.html'; ?>
     <div id="all_news"> <span>Latest News</span>
         <ul>
             <li><a href="#"> India Today Engineering Survey 2021 : PCCoE ranked 76th in INDIA among top 200 Private Engineering Colleges in India Today Engineering Survey 2021</a></li>
@@ -729,8 +728,7 @@
     </div>
 
 </div>
-
-    <?php $PATH = $_SERVER["DOCUMENT_ROOT"]."/E&TC-website/PCCOE-main/assets/"; include($PATH."footer.html")  ?>
+<?php require_once __DIR__ . '/assets/footer.html'; ?>
 
     <!-- collapsible div script -->
     <script>
